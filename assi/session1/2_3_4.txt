@@ -1,0 +1,75 @@
+2.supervised & Unsupervised diffrence
+---------------------------------------
+
+| Feature            | Supervised Learning                                                | Unsupervised Learning                            |
+| ------------------ | ------------------------------------------------------------------ | ------------------------------------------------ |
+| Data               | Uses labeled data                                                  | Uses unlabeled data                              |
+| Goal               | Predict output or class                                            | Discover hidden patterns or groups               |
+| Output             | Classification or Regression                                       | Clustering or Association                        |
+| Example App        | Instagram predicts which posts you'll like based on previous likes | Spotify groups similar songs to create playlists |
+| Algorithm Examples | Linear Regression, Decision Tree, Random Forest                    | K-Means, DBSCAN, Hierarchical Clustering         |
+| Real-world Example | Gmail spam detection, Flipkart product recommendation              | Customer segmentation, Movie/music grouping      |
+
+
+
+
+3. Product Segmentation into Clusters
+-----------------------------------------------
+| Product       | Price (₹) | Reviews |
+| ------------- | --------: | ------: |
+| Smartphone A  |     15000 |    4500 |
+| Smartphone B  |     16000 |    4200 |
+| Earbuds       |      1800 |    2500 |
+| Headphones    |      2200 |    2300 |
+| Laptop        |     65000 |    1800 |
+| Gaming Laptop |     72000 |    1500 |
+| Smartwatch    |      5000 |    3000 |
+| Fitness Band  |      3500 |    3200 |
+
+Cluster 1: Budget Accessories
+Earbuds
+Headphones
+Smartwatch
+Fitness Band
+
+Reason:
+
+Low to medium price (₹1,800–₹5,000)
+High popularity (2,300–3,200 reviews)
+Frequently purchased accessories.
+
+
+
+Cluster 2: Mid-range Smartphones
+Smartphone A
+Smartphone B
+
+Reason:
+
+Similar price (₹15,000–₹16,000)
+Very high reviews (4,200–4,500)
+Popular mobile devices targeting similar customers.
+
+
+
+Cluster 3: Premium Laptops
+Laptop
+Gaming Laptop
+
+Reason:
+
+High price (₹65,000–₹72,000)
+Moderate reviews (1,500–1,800)
+Premium electronic products with a smaller customer base.
+
+
+
+4. Real-world Uses of Unsupervised Learning
+--------------------------------------------
+
+| Platform | Data Required                                        | Hidden Pattern / Insight                                                             |
+| -------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Zomato   | Restaurant ratings, cuisine, location, order history | Group similar restaurants and identify customer preferences.                         |
+| Flipkart | Purchase history, browsing behavior, cart items      | Segment customers into budget buyers, premium buyers, or frequent shoppers.          |
+| Spotify  | Listening history, genres, artists, play count       | Group similar songs and users to create personalized playlists like Discover Weekly. |
+
